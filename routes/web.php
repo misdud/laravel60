@@ -12,9 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('default.home');
+})->name('home');
 
-Route::get('/contact', function(){
-   echo 'contact'; 
-});
+Route::get('/articles', ['as'=>'articles', 'uses'=>'Admin\MyControllerArticl@showArticles']);
+Route::get('/articl/{id}', ['as'=>'articl', 'uses'=>'Admin\MyControllerArticl@showArticl'])->where('id', '[0-9]+');
+Route::get('/about', ['as'=>'about', 'uses'=>'Admin\MyControllerArticl@showAbout']);
+Route::match(['post', 'get', 'put'],'/contact/{page?}',['as'=>'contact', 'uses'=>'Admin\MyControllerContact@showContact']);
+
+
+
+//Route::fallback(function(){
+//    echo "  Страница не найдена ";
+//});
+
+
+
+
+

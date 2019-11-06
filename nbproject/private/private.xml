@@ -3,7 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/laravel60.local/public/index.php</file>
+            <file>file:/C:/xampp/htdocs/laravel64.local/resources/views/default/about.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel64.local/resources/views/default/layouts/main_layout.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel64.local/resources/views/default/home.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel64.local/app/Http/Controllers/Admin/MyControllerArticl.php</file>
+            <file>file:/C:/xampp/htdocs/laravel64.local/resources/views/default/articl.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel64.local/resources/views/default/contact.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel64.local/resources/views/default/articles.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel64.local/app/Http/Controllers/Admin/MyControllerContact.php</file>
+            <file>file:/C:/xampp/htdocs/laravel64.local/routes/web.php</file>
+            <file>file:/C:/xampp/htdocs/laravel64.local/app/Http/Kernel.php</file>
+            <file>file:/C:/xampp/htdocs/laravel64.local/resources/views/default/default_content.blade.php</file>
         </group>
     </open-files>
 </project-private>
